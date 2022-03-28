@@ -355,7 +355,7 @@ let sampleArray = [0,1,2,3,4,4,7,6,8,9]
 */
 
 const isArrayAscending = (array) => {
-  for (let i = 0; i < sampleArray.length; i++){
+  for (let i = 0; i < array.length; i++){
     if (array[i] > array[i+1]){
       return false
     }
